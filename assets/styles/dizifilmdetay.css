@@ -1,0 +1,181 @@
+.dizifilmdetay-background{
+    background:none;
+}
+
+.dizifilmdetay-background::before{
+    background-color: rgba(0, 0, 0, 0.5);
+    -moz-transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.dizifilmdetay-background.dark::before{
+    background-color: rgba(0, 0, 0, 0.9);
+    -moz-transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.detay-fake-slider{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.detay-fake-slider h1{
+    z-index: 1;
+    font-size: 55px;
+	color:#f5f5f5;
+    opacity: 0;
+    font-family: 'Cabin Sketch', cursive;
+    -moz-transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+.detay-grid1{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding: 50px 0;
+    overflow:hidden;
+    background: rgba(0,0,0,0.04);
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.04) 0%, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 25%, rgba(0,0,0,0.67) 50%, rgba(0,0,0,0.83) 74%, rgba(0,0,0,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0.04)), color-stop(0%, rgba(0,0,0,0)), color-stop(25%, rgba(0,0,0,0.5)), color-stop(50%, rgba(0,0,0,0.67)), color-stop(74%, rgba(0,0,0,0.83)), color-stop(100%, rgba(0,0,0,1)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.04) 0%, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 25%, rgba(0,0,0,0.67) 50%, rgba(0,0,0,0.83) 74%, rgba(0,0,0,1) 100%);
+    background: -o-linear-gradient(top, rgba(0,0,0,0.04) 0%, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 25%, rgba(0,0,0,0.67) 50%, rgba(0,0,0,0.83) 74%, rgba(0,0,0,1) 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,0.04) 0%, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 25%, rgba(0,0,0,0.67) 50%, rgba(0,0,0,0.83) 74%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.04) 0%, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 25%, rgba(0,0,0,0.67) 50%, rgba(0,0,0,0.83) 74%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+}
+
+.detay-grid1-ic{
+    width: 1400px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.detay-grid1-ic h1{
+    font-size: 32px;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 25px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.detay-grid1-ic h3{
+    font-size: 24px;
+    font-weight: 500;
+    color: #f5f5f5;
+    padding-bottom: 10px;
+    text-align: left;
+    font-family: 'Indie Flower', cursive;
+}
+
+.detay-grid1-ic p{
+    font-size: 16px;
+    color: #e5f5fa;
+    font-weight: 100;
+    padding-bottom: 20px;
+    line-height: 30px;
+    text-indent: 30px;
+    font-family: 'Indie Flower', cursive;
+}
+
+/*Responsive Start*/
+
+@media screen and (max-width: 1500px){
+
+    .detay-grid1-ic{
+        width: 1300px;
+    }
+
+}
+
+@media screen and (max-width: 1400px){
+
+    .detay-grid1-ic{
+        width: 1200px;
+    }
+
+}
+
+@media screen and (max-width: 1300px){
+
+    .detay-grid1-ic{
+        width:1100px;
+    }
+
+}
+
+@media screen and (max-width: 1200px){
+
+    .detay-grid1-ic{
+        width:1000px;
+    }
+
+}
+
+@media screen and (max-width: 1100px){
+
+    .detay-grid1-ic{
+        width:900px;
+    }
+
+}
+
+@media screen and (max-width: 1000px){
+
+    .detay-grid1-ic{
+        width:800px;
+    }
+
+}
+
+@media screen and (max-width: 900px){
+
+    .detay-grid1-ic{
+        width:700px;
+    }
+
+}
+
+@media screen and (max-width: 800px){
+
+    .detay-grid1-ic{
+        width:600px;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+
+    .detay-grid1-ic{
+        width:500px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .detay-grid1-ic {
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+
+    .detay-grid1-ic{
+        width:90%;
+    }
+
+}
