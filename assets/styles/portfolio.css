@@ -246,6 +246,7 @@ h5{
 	background: #cecece;
 	padding: 50px 0;
 	background: url(../imgs/portfolio/portfolio-grid1.jpg) no-repeat center;
+	background-size: cover;
 	overflow:hidden;
 }
 
