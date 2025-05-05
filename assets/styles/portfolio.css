@@ -191,7 +191,7 @@
 }
 
 .portfolio-slider li:nth-child(n+6) div img{
-  height:200px;
+  height:110px;
   object-fit:cover;
 }
 
