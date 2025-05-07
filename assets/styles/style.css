@@ -447,6 +447,15 @@ header.scrolldown .header-logo i{
 	text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 5px #000;
 }
 
+.slider-text h5 {
+    font-size: 15px;
+    color: #fff;
+    text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 5px #000;
+    position: relative;
+    right: 80px;
+    top: 50px;
+}
+
 .slides-pagination a{
 	color:rgba(0,0,0,0);
 }
@@ -1006,6 +1015,9 @@ footer {
 		font-size:30px;
 	}
 
+	.slider-text h5{
+		font-size:12px;
+	}
 }
 
 @media screen and (max-width: 1100px){
@@ -1024,6 +1036,10 @@ footer {
 
 	.slider-text h2{
 		font-size:25px;
+	}
+
+	.slider-text h5 {
+		right: 25px;
 	}
 
 	.grid1-ic>h2 {
@@ -1056,6 +1072,10 @@ footer {
 
 	.slider-text h2{
 		font-size:20px;
+	}
+
+	.slider-text h5 {
+		right: 20px;
 	}
 
 	.grid1-ic>h2 {
@@ -1091,6 +1111,11 @@ footer {
 		font-size: 100%;
 	}
 
+	.slider-text h5 {
+		font-size:11px;
+		right: 10px;
+	}
+
 	.site-up {
 		right: 15px;
 		bottom: 15px;
@@ -1103,7 +1128,7 @@ footer {
 		padding: 0 5px;
 	}
 
-	header {
+ 	header {
 		display: none;
 	}
 
